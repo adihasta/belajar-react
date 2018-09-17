@@ -31,19 +31,19 @@ class Header extends React.Component {
     render() {
         return (
             <div>
-                <Navbar color="light" light expand="md">
-                    <NavbarBrand href="/">reactstrap</NavbarBrand>
+                <Navbar className="Nav-Header" light expand="md">
+                    <NavbarBrand style={{color: "white"}} href="/">reactstrap</NavbarBrand>
                     <NavbarToggler onClick={this.toggle} />
                     <Collapse isOpen={this.state.isOpen} navbar>
                         <Nav className="ml-auto" navbar>
                             <NavItem>
-                                <NavLink href="/components/">Components</NavLink>
+                                <NavLink style={{color: "white"}} href="/components/">Components</NavLink>
                             </NavItem>
                             <NavItem>
-                                <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+                                <NavLink style={{color: "white"}} href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
                             </NavItem>
                             <UncontrolledDropdown nav inNavbar>
-                                <DropdownToggle nav caret>
+                                <DropdownToggle style={{color: "white"}} nav caret>
                                     Options
                                 </DropdownToggle>
                                 <DropdownMenu right>

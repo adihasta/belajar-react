@@ -6,9 +6,12 @@ body {
 
 .Button-Home {
   position: absolute;
-  top: 0px;
-  left: 100px;
+  top: 10px;
+  left: 110px;
   background-color: rgb(89, 89, 209) !important;
-  color: yellow !important;
+  color: rgb(255, 255, 255) !important;
 }
 
+.Nav-Header {
+background-color: rgb(95, 95, 95) !important;
+}
